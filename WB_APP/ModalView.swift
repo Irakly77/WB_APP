@@ -5,7 +5,7 @@ struct ModalView: View {
     
     var body: some View {
        
-        Button("Закрыть") {
+        Button("close") {
             presentationMode.wrappedValue.dismiss()
         }
     }

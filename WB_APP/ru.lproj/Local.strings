@@ -1,0 +1,13 @@
+/* 
+  Local.strings
+  WB_APP
+
+  Created by Irakli Chachava on 03.07.2024.
+  
+*/
+
+"Day before yesterday" = "Позавчера";
+"Yesterday" = "Вчера";
+"Today" = "Сегодня";
+"Tomorrow" = "Завтра";
+"Day after tomorrow" = "После завтра";

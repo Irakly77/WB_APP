@@ -1,0 +1,12 @@
+/* 
+  Local.strings
+  WB_APP
+
+  Created by Irakli Chachava on 03.07.2024.
+  
+*/
+"Day before yesterday" = "Avant-hier";
+"Yesterday" = "Hier";
+"Today" = "Aujourd'hui";
+"Tomorrow" = "Demain";
+"Day after tomorrow" = "Après demain";

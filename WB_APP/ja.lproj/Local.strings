@@ -1,0 +1,12 @@
+/* 
+  Local.strings
+  WB_APP
+
+  Created by Irakli Chachava on 03.07.2024.
+  
+*/
+"Day before yesterday" = "おととい";
+"Yesterday" = "昨日";
+"Today" = "今日";
+"Tomorrow" = "明日";
+"Day after tomorrow" = "明後日";

@@ -4,7 +4,7 @@ import SwiftUI
 struct WB_APPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(taskService: DefaultTaskService())
         }
     }
 }

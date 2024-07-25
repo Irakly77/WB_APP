@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		3A4C9F902C179F2D00854D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4C9F8F2C179F2D00854D60 /* ContentView.swift */; };
 		3A4C9F922C179F2E00854D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C9F912C179F2E00854D60 /* Assets.xcassets */; };
 		3A4C9F952C179F2E00854D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A4C9F942C179F2E00854D60 /* Preview Assets.xcassets */; };
+		3ADA07D32C5294FF0034451B /* MyCustomButton in Frameworks */ = {isa = PBXBuildFile; productRef = 3ADA07D22C5294FF0034451B /* MyCustomButton */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADA07D32C5294FF0034451B /* MyCustomButton in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = WB_APP;
+			packageProductDependencies = (
+				3ADA07D22C5294FF0034451B /* MyCustomButton */,
+			);
 			productName = WB_APP;
 			productReference = 3A4C9F8A2C179F2D00854D60 /* WB_APP.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 3A4C9F812C179F2D00854D60;
+			packageReferences = (
+				3ADA07D12C5294FF0034451B /* XCLocalSwiftPackageReference "MyCustomButton" */,
+			);
 			productRefGroup = 3A4C9F8B2C179F2D00854D60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +350,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3ADA07D12C5294FF0034451B /* XCLocalSwiftPackageReference "MyCustomButton" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MyCustomButton;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ADA07D22C5294FF0034451B /* MyCustomButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MyCustomButton;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3A4C9F822C179F2D00854D60 /* Project object */;
 }

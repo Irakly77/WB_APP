@@ -1,16 +1,23 @@
 import SwiftUI
+import MyCustomButton
 
 struct ContentView: View {
+    @State private var textFieldContent = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            MyCustomTextField(text: $textFieldContent, placeholder: "Enter text")
+                .padding()
+            
+            MyCustomButton(title: "Press Me") {
+                print("Button pressed!")
+            }
+            .padding()
         }
-        .padding()
     }
 }
+
+
 
 #Preview {
     ContentView()

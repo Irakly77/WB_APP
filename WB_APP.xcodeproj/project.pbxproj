@@ -18,7 +18,6 @@
 		3A6BC9992C1CA6CE00B6C814 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6BC9982C1CA6CD00B6C814 /* Contacts.swift */; };
 		3A6BC99B2C1CA83500B6C814 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6BC99A2C1CA83500B6C814 /* SearchBar.swift */; };
 		3A6BC99D2C1CA84800B6C814 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6BC99C2C1CA84800B6C814 /* List.swift */; };
-		3AEA8A3B2C5FCF68007D6B0E /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA8A3A2C5FCF68007D6B0E /* ImageLoader.swift */; };
 		3AEA8A3D2C5FCFC0007D6B0E /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA8A3C2C5FCFC0007D6B0E /* AsyncImageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		3A6BC9982C1CA6CD00B6C814 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		3A6BC99A2C1CA83500B6C814 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		3A6BC99C2C1CA84800B6C814 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
-		3AEA8A3A2C5FCF68007D6B0E /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		3AEA8A3C2C5FCFC0007D6B0E /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +103,6 @@
 				3A6BC99C2C1CA84800B6C814 /* List.swift */,
 				3AEA8A3C2C5FCFC0007D6B0E /* AsyncImageView.swift */,
 				3A0B99982C1F725D0082DA1F /* Detail.swift */,
-				3AEA8A3A2C5FCF68007D6B0E /* ImageLoader.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -182,7 +179,6 @@
 			files = (
 				3A6BC99B2C1CA83500B6C814 /* SearchBar.swift in Sources */,
 				3A6BC99D2C1CA84800B6C814 /* List.swift in Sources */,
-				3AEA8A3B2C5FCF68007D6B0E /* ImageLoader.swift in Sources */,
 				3A0B99992C1F725D0082DA1F /* Detail.swift in Sources */,
 				3A6BC9922C1C8BDC00B6C814 /* Other.swift in Sources */,
 				3AEA8A3D2C5FCFC0007D6B0E /* AsyncImageView.swift in Sources */,

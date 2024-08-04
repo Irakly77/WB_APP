@@ -7,10 +7,8 @@ struct Detail: View {
     var body: some View {
         
         VStack {
-            Image(photo)
-                .resizable()
+            AsyncImageView(imageName: photo)
                 .frame(width: 200,height: 200)
-                .padding(.top,46)
             Text(name)
                 .font(.system(size: 24))
                 .padding(.top,26)
@@ -34,9 +32,6 @@ struct Detail: View {
                         .aspectRatio(contentMode: .fit)
                         .foregroundColor(.blue)
                     Text("Назад")
-                    
-                    
-                    
                 })
                 .navigationBarItems(trailing: Button(action: {
                 })  {
@@ -45,7 +40,7 @@ struct Detail: View {
         }
     }
 }
-    #Preview {
-        Detail(name: "Маман", status: "+7 999 999-99-99",photo: "Арбуз Дыня")
-    }
-    
+#Preview {
+    Detail(name: "Маман", status: "+7 999 999-99-99",photo: "Арбуз Дыня")
+}
+

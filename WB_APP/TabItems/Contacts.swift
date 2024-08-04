@@ -6,7 +6,7 @@ struct Contacts: View {
                 SearchBar()
                 Lists()
                     .padding(.leading, 15)
-                    .listStyle(.inset)
+                        .listStyle(.inset)
                 
             }
             .toolbar {

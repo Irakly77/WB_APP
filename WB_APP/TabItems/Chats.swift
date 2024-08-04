@@ -1,10 +1,11 @@
 import SwiftUI
-struct ContentView: View {
+struct Chats: View {
     @State private var searchText = ""
     var body: some View {
-        TabBar()
+        Text("Hello world")
     }
 }
+
 #Preview {
-    ContentView()
+    Chats()
 }
